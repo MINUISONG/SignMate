@@ -14,7 +14,7 @@ For deaf children, the period before age 5 is the **'Critical Period'** for lang
 
 However, most hearing parents do not know sign language, and the existing education market is limited to **'boring one-way videos'** or **'simple dictionaries,'** causing many to miss this golden time for learning.
 
-**SignMate** solves this problem with an On-Device AI solution that goes beyond simple learning. It **Assesses** whether your movements are correct in real-time and provides **Coaching** like a teacher to correct mistakes.
+**SignMate** solves this problem with an AI solution that goes beyond simple learning. It **Assesses** whether your movements are correct in real-time and provides **Coaching** like a teacher to correct mistakes.
 
 ### 2. 💡 Key Features
 
@@ -23,13 +23,12 @@ However, most hearing parents do not know sign language, and the existing educat
 | **Interactive Learning** | Provides an active learning environment with **Gamification** (quizzes, games) to eliminate boredom. |
 | **Ghost Overlay UI** | Overlays a semi-transparent 'Answer Skeleton (Ghost)' on the user's screen to induce intuitive posture correction. |
 | **Hybrid Feedback** | A 3-stage feedback system: **Rule-based (Instant)** + **Deep Learning (Precise)** + **LLM (Natural Language)**. |
-| **Privacy First** | Adopts an **On-Device AI** architecture where video data is processed locally without being sent to a server. |
 
 ### 3. 🛠️ Technical Pipeline
 
 This project establishes a 3-stage hybrid pipeline to ensure both real-time performance and accuracy.
 
-*(Place your Pipeline Diagram Image here)*
+<img width="779" height="318" alt="image" src="https://github.com/user-attachments/assets/d816f8bb-5911-4284-84be-bec1193c3dba" />
 
 #### Phase 1. Real-time Sensing & Geometric Feedback (Instant Correction)
 * **Vision AI:** Extracts 543 3D keypoints (Hands: 42, Pose: 33, Face: 468) in real-time using `MediaPipe Holistic`.
@@ -53,8 +52,8 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 
 * **AI Model:** Python, PyTorch, MediaPipe, MS-TCN, Transformer (Cross-Attention)
 * **Algorithm:** DTW (Dynamic Time Warping), Cosine Similarity
-* **Backend:** FastAPI, Docker
-* **LLM:** Google Gemini API / OpenAI GPT-4
+* **Backend:**
+* **LLM:**
 * **Frontend:** 
 
 ---
@@ -77,13 +76,13 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 | **Interactive Learning** | 퀴즈와 게임(Gamification) 요소를 도입하여 지루함을 없앤 능동적 학습 환경 제공 |
 | **Ghost Overlay UI** | 사용자 화면 위에 '정답 Ghost' 반투명하게 겹쳐 직관적인 자세 교정 유도 |
 | **Hybrid Feedback** | **규칙 기반(즉각적)** + **딥러닝(정밀함)** + **LLM(자연어)**의 3단계 피드백 시스템 |
-| **Privacy First** | 영상을 서버로 전송하지 않고 기기 내에서 처리하는 **On-Device AI** 아키텍처 |
+
 
 ### 3. 🛠️ Technical Pipeline (기술 아키텍처)
 
 본 프로젝트는 실시간성과 정확도를 동시에 확보하기 위해 3단계 하이브리드 파이프라인을 구축했습니다.
 
-*(이곳에 파이프라인 다이어그램 이미지를 넣어주세요)*
+<img width="1098" height="429" alt="image" src="https://github.com/user-attachments/assets/1aa97188-e71c-462a-b747-7ce3d936e398" />
 
 #### Phase 1. Real-time Sensing & Geometric Feedback (즉각 교정)
 * **Vision AI:** `MediaPipe Holistic`을 통해 손(42), 몸(33), 얼굴(468)의 총 543개 3D 키포인트를 실시간 추출합니다.
@@ -117,7 +116,7 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 
 | Role | Name | GitHub |
 | :--- | :--- | :--- |
-| **AI Research** | Name (이름) | [@username](https://github.com/) |
+| **AI Research** | Minui Song (송민의) | [@username](https://github.com/) |
 | **AI Research** | Name (이름) | [@username](https://github.com/) |
 | **AI Research** | Name (이름) | [@username](https://github.com/) |
 | **Backend & Eng.** | Name (이름) | [@username](https://github.com/) |
