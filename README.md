@@ -82,7 +82,7 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 
 본 프로젝트는 실시간성과 정확도를 동시에 확보하기 위해 3단계 하이브리드 파이프라인을 구축했습니다.
 
-<img width="1098" height="429" alt="image" src="https://github.com/user-attachments/assets/1aa97188-e71c-462a-b747-7ce3d936e398" />
+<img width="779" height="318" alt="image" src="https://github.com/user-attachments/assets/1aa97188-e71c-462a-b747-7ce3d936e398" />
 
 #### Phase 1. Real-time Sensing & Geometric Feedback (즉각 교정)
 * **Vision AI:** `MediaPipe Holistic`을 통해 손(42), 몸(33), 얼굴(468)의 총 543개 3D 키포인트를 실시간 추출합니다.
