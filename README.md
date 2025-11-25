@@ -1,11 +1,5 @@
 # 🤟 SignMate: AI-based Real-time Sign Language Tutor
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
-[![MediaPipe](https://img.shields.io/badge/MediaPipe-Holistic-orange)](https://google.github.io/mediapipe/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-009688.svg)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 > **Gachon University P-Practical Project (Graduation Project) Team 8**
 > **"Bridging the Gap in the Critical Period: An AI Tutor Connecting Parents and Children"**
 
@@ -53,11 +47,7 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 
 ### 4. 💾 Dataset
 
-* **Training Data (Pre-training):** [WLASL (World Level American Sign Language)](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
-    * Utilized 21,000 videos covering 2,000 words.
-    * Constructed Anchor-Positive-Negative pairs (Data Augmentation) for Siamese Network training.
-* **Service Data (Korean GT):** [AI Hub](https://aihub.or.kr/) & [NIKL Korean Sign Language Corpus](https://kli.korean.go.kr/)
-    * Built a high-quality 'Ground Truth' database optimized for Korean Sign Language (KSL) education.
+
 
 ### 5. 🏗️ Tech Stack
 
@@ -65,7 +55,7 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 * **Algorithm:** DTW (Dynamic Time Warping), Cosine Similarity
 * **Backend:** FastAPI, Docker
 * **LLM:** Google Gemini API / OpenAI GPT-4
-* **Frontend:** React / Streamlit (Prototype)
+* **Frontend:** 
 
 ---
 
@@ -78,14 +68,14 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 
 하지만 대부분의 청인 부모는 수어를 모르며, 기존 교육 시장은 **'지루한 일방향 강의'**나 **'단순 사전'**에 머물러 있어 학습의 골든타임을 놓치게 만듭니다.
 
-**SignMate**는 이러한 문제를 해결하기 위해, 단순한 학습을 넘어 **"내가 한 동작이 맞는지 즉시 알려주고(Assessment), 틀린 부분을 선생님처럼 교정해주는(Coaching)"** 온디바이스 AI 솔루션입니다.
+**SignMate**는 이러한 문제를 해결하기 위해, 단순한 학습을 넘어 **"내가 한 동작이 맞는지 즉시 알려주고, 틀린 부분을 선생님처럼 교정해주는"** AI 솔루션입니다.
 
 ### 2. 💡 Key Features (핵심 기능)
 
 | Feature | Description |
 | :--- | :--- |
 | **Interactive Learning** | 퀴즈와 게임(Gamification) 요소를 도입하여 지루함을 없앤 능동적 학습 환경 제공 |
-| **Ghost Overlay UI** | 사용자 화면 위에 '정답 스켈레톤(Ghost)'을 반투명하게 겹쳐 직관적인 자세 교정 유도 |
+| **Ghost Overlay UI** | 사용자 화면 위에 '정답 Ghost' 반투명하게 겹쳐 직관적인 자세 교정 유도 |
 | **Hybrid Feedback** | **규칙 기반(즉각적)** + **딥러닝(정밀함)** + **LLM(자연어)**의 3단계 피드백 시스템 |
 | **Privacy First** | 영상을 서버로 전송하지 않고 기기 내에서 처리하는 **On-Device AI** 아키텍처 |
 
@@ -111,19 +101,15 @@ This project establishes a 3-stage hybrid pipeline to ensure both real-time perf
 
 ### 4. 💾 Dataset (데이터셋)
 
-* **Training Data (Pre-training):** [WLASL (World Level American Sign Language)](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
-    * 2,000개 단어, 21,000개 영상 활용.
-    * Siamese Network 학습을 위한 Anchor-Positive-Negative(Augmentation) 쌍 구축.
-* **Service Data (Korean GT):** [AI Hub 수어 영상](https://aihub.or.kr/) & [국립국어원 한국수어 말뭉치](https://kli.korean.go.kr/)
-    * 한국 수어(KSL) 교육에 최적화된 고품질 '모범 답안(Ground Truth)' DB 구축.
+
 
 ### 5. 🏗️ Tech Stack (기술 스택)
 
 * **AI Model:** Python, PyTorch, MediaPipe, MS-TCN, Transformer (Cross-Attention)
 * **Algorithm:** DTW (Dynamic Time Warping), Cosine Similarity
-* **Backend:** FastAPI, Docker
-* **LLM:** Google Gemini API / OpenAI GPT-4
-* **Frontend:** React / Streamlit (Prototype)
+* **Backend:** 
+* **LLM:** 
+* **Frontend:** 
 
 ---
 
